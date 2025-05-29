@@ -14,7 +14,6 @@ from trainer import train
 torch.backends.cudnn.enable = True
 torch.backends.cudnn.benchmark = True
 from utils.TextModel import TextEncoder
-from utils.Text import Text_wo_tike,Text_tkie_self
 from utils.Model import GLHFE_CSGVD
 def warn(*args, **kwargs):
     pass
